@@ -1,0 +1,42 @@
+class Main{
+
+static void run(int a){
+
+int b = 3;
+int c = 5;
+int d = 15;
+ 
+for (int i=1; i<=a; i++){
+ 
+String e = "";
+ 
+if (i==b){
+
+b = b + 3;
+e = "ka";}
+
+if (i==c){
+
+c = c + 5;
+e = "ching!";}
+
+if (i==d){
+
+d = d + 15;
+e = "ka-ching!";}
+
+if (e == "")
+
+System.out.println(i);
+
+else  
+
+System.out.println(e);
+ }
+}
+
+public static void main (String args[]){
+
+run(200);
+ }
+}
